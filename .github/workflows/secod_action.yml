@@ -1,0 +1,14 @@
+name: Second Workflow
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Greetings
+        run: |
+          echo "Hello MotherFucker!"
+          echo "Good Morning!!..."
+      - name: GoodBye
+        run: |
+          echo "bye bye"
+          echo "Baby"
